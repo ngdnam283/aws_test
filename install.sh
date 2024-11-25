@@ -25,6 +25,7 @@ else
 fi
 
 echo "Step 6: Running the Python script"
-python "$SCRIPT_NAME"
+
+nohup python3 "$SCRIPT_NAME" &
 
 echo "Setup complete!"
